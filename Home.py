@@ -9,11 +9,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.header("เป็นโรคหัวใจ")
-    st.image("./img/yes.jpg")
+    st.image("./img/yes.JPG")
 
 with col2:
     st.header("ไม่เป็นโรคหัวใจ")
-    st.image("./img/no.jpg")
+    st.image("./img/no.JPG")
 
 html_7 = """
 <div style="background-color:#EC7063;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
