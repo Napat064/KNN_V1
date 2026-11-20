@@ -113,7 +113,7 @@ if st.button("ทำนายผล"):
     # สร้าง DataFrame ที่มีชื่อคอลัมน์ตรงกับ X เพื่อป้องกัน Warning
     x_input = pd.DataFrame(
         [[age, sex, chest_pain, resting_bp, cholesterol, fasting_bs,
-          resting_ecg, max_hr, exercise_angina, oldpeak, st_slope]],
+        resting_ecg, max_hr, exercise_angina, oldpeak, st_slope]],
         columns=X.columns
     )
 
